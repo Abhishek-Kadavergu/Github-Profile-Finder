@@ -1,0 +1,72 @@
+.userData {
+  border: 2px solid rgba(0, 0, 0, 0.48);
+  margin: 15px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px black;
+  width: 700px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.userData > img {
+  margin: 20px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.details {
+  padding: 10px;
+}
+
+.userData h2 {
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.userData h3 {
+  font-family: sans-serif;
+}
+
+.userData a {
+  color: rgba(0, 0, 255, 0.726);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.userData a:hover {
+  text-decoration: underline;
+  color: rgba(0, 0, 255, 0.681);
+}
+
+.inner {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner input {
+  font-size: 1rem;
+  margin-right: 10px;
+  padding: 6px 10px;
+  border: 0.2px solid rgba(0, 0, 0, 0.166);
+  border-radius: 5px;
+}
+
+.inner button {
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  background-color: rgb(34, 113, 216);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.inner button:hover {
+  background-color: rgb(25, 90, 180);
+}
